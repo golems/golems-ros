@@ -1,0 +1,12 @@
+****************
+** GOLEMS-ROS **
+****************
+
+A collection of ROSINSTALL files for the Georgia Tech Humanoids Lab
+
+***************
+** Packages  **
+***************
+
+- ach: Real-Time IPC
+  http://www.golems.org/node/1526

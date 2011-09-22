@@ -4,6 +4,26 @@
 
 A collection of ROSINSTALL files for the Georgia Tech Humanoids Lab
 
+
+***********
+** USAGE **
+***********
+
+(0) Install ROS and rosintstall:
+    http://www.ros.org/wiki/ROS/Installation
+    http://www.ros.org/wiki/rosinstall
+
+(1) `$ rosinstall -n PKG_LOCATION $ROS_ROOT http://golems.github.com/golems.rosinstall'
+
+    For example, to install all golems packages to ~/ros/pkg, say:
+    `$ rosinstall -n ~/ros/pkg $ROS_ROOT http://golems.github.com/golems-ros/golems.rosinstall'
+
+(2) Make sure the package directory (ie ~/ros/pkg) is in your
+    $ROS_PACKAGE_PATH environment variable
+
+(3) `$ rosmake ach'
+
+
 ***************
 ** Packages  **
 ***************

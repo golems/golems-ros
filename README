@@ -13,7 +13,7 @@ A collection of ROSINSTALL files for the Georgia Tech Humanoids Lab
     http://www.ros.org/wiki/ROS/Installation
     http://www.ros.org/wiki/rosinstall
 
-(1) `$ rosinstall -n PKG_LOCATION $ROS_ROOT http://golems.github.com/golems.rosinstall'
+(1) `$ rosinstall -n PKG_PATH $ROS_ROOT http://golems.github.com/golems-ros/golems.rosinstall'
 
     For example, to install all golems packages to ~/ros/pkg, say:
     `$ rosinstall -n ~/ros/pkg $ROS_ROOT http://golems.github.com/golems-ros/golems.rosinstall'

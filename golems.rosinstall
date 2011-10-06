@@ -13,3 +13,8 @@
     local-name: golems/ach
     uri: https://github.com/golems/ach
     version: master
+
+- git:
+    local-name: golems/achros
+    uri: https://github.com/golems/achros
+    version: master

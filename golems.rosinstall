@@ -1,1 +1,15 @@
-[{'git': {'local-name': 'ach', 'uri': 'http://github.com/golems/ach'}}]
+################
+## GOLEMS-ROS ##
+################
+
+## Georgia Tech Humanoid Robotics Lab
+## Under Direction of Prof. Mike Stilman
+##
+## HOMEPAGE: http://www.golems.org
+## GITHUB:   http://www.github.com/golems
+
+
+- git:
+    local-name: ach
+    uri: https://github.com/golems/ach
+    version: master
